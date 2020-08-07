@@ -13,6 +13,6 @@ def get_the_values(groceries)
   #binding.pry
   groceries.values.flatten
 
-  #below technically works, but .flatten is much easier to use
+  #below technically works (but appears to return integers as strings); .flatten is much easier to use & works on integers without converting them into strings
   #groceries.values.join(" ").split
 end
